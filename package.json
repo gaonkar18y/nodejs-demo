@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-demo",
+  "version": "1.0.0",
+  "description": "A node js demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node build/index.js",
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaonkar18y/nodejs-demo.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaonkar18y/nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/gaonkar18y/nodejs-demo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
